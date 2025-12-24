@@ -22,6 +22,7 @@ namespace OnionPronia.Appilication.Interfaces.Repositories.Generic
         public void Add(T entity);
         public void Update(T entity);
         public void Remove(T entity);
+        Task<bool> AnyAsync(Expression<Func<T, bool>> func);
 
         public Task SaveChangesAsync();
 

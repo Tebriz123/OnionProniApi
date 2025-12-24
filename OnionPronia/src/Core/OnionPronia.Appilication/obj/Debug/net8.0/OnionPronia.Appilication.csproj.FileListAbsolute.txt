@@ -1,0 +1,16 @@
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Appilication\bin\Debug\net8.0\OnionPronia.Appilication.deps.json
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Appilication\bin\Debug\net8.0\OnionPronia.Appilication.dll
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Appilication\bin\Debug\net8.0\OnionPronia.Appilication.pdb
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Appilication\bin\Debug\net8.0\OnionPronia.Domain.dll
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Appilication\bin\Debug\net8.0\OnionPronia.Domain.pdb
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Appilication\obj\Debug\net8.0\OnionPronia.Appilication.csproj.AssemblyReference.cache
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Appilication\obj\Debug\net8.0\OnionPronia.Appilication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Appilication\obj\Debug\net8.0\OnionPronia.Appilication.AssemblyInfoInputs.cache
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Appilication\obj\Debug\net8.0\OnionPronia.Appilication.AssemblyInfo.cs
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Appilication\obj\Debug\net8.0\OnionPronia.Appilication.csproj.CoreCompileInputs.cache
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Appilication\obj\Debug\net8.0\OnionPronia.Appilication.sourcelink.json
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Appilication\obj\Debug\net8.0\OnionPro.B2D50695.Up2Date
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Appilication\obj\Debug\net8.0\OnionPronia.Appilication.dll
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Appilication\obj\Debug\net8.0\refint\OnionPronia.Appilication.dll
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Appilication\obj\Debug\net8.0\OnionPronia.Appilication.pdb
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Appilication\obj\Debug\net8.0\ref\OnionPronia.Appilication.dll

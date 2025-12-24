@@ -16,7 +16,7 @@ namespace OnionPronia.Persistence.Configurations
             builder
                 .Property(p => p.Name)
                 .IsRequired()
-                .HasColumnType("varchar(150");
+                .HasColumnType("varchar(150)");
 
             builder
                 .HasIndex(p => p.Name)
@@ -24,7 +24,7 @@ namespace OnionPronia.Persistence.Configurations
 
             builder
                 .Property(p => p.Price)
-                .HasColumnType("decimal(8,2");
+                .HasColumnType("decimal(8,2)");
             builder
                 .Property(p => p.SKU)
                 .HasColumnType("char(10)");

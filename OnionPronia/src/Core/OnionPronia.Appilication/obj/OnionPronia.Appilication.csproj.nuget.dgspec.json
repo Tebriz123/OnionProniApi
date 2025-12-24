@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\necef\\OneDrive\\İş masası\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj": {}
+    "C:\\Users\\necef\\OneDrive\\İş masası\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\necef\\OneDrive\\İş masası\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj": {
+    "C:\\Users\\necef\\OneDrive\\İş masası\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\necef\\OneDrive\\İş masası\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj",
+        "projectUniqueName": "C:\\Users\\necef\\OneDrive\\İş masası\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj",
         "projectName": "OnionPronia.Appilication",
-        "projectPath": "C:\\Users\\necef\\OneDrive\\İş masası\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj",
+        "projectPath": "C:\\Users\\necef\\OneDrive\\İş masası\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj",
         "packagesPath": "C:\\Users\\necef\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\necef\\OneDrive\\İş masası\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\obj\\",
+        "outputPath": "C:\\Users\\necef\\OneDrive\\İş masası\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\necef\\OneDrive\\İş masası\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj": {
-                "projectPath": "C:\\Users\\necef\\OneDrive\\İş masası\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj"
+              "C:\\Users\\necef\\OneDrive\\İş masası\\API\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj": {
+                "projectPath": "C:\\Users\\necef\\OneDrive\\İş masası\\API\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj"
               }
             }
           }
@@ -53,6 +53,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -73,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\necef\\OneDrive\\İş masası\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj": {
+    "C:\\Users\\necef\\OneDrive\\İş masası\\API\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\necef\\OneDrive\\İş masası\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\necef\\OneDrive\\İş masası\\API\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj",
         "projectName": "OnionPronia.Domain",
-        "projectPath": "C:\\Users\\necef\\OneDrive\\İş masası\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj",
+        "projectPath": "C:\\Users\\necef\\OneDrive\\İş masası\\API\\OnionPronia\\src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj",
         "packagesPath": "C:\\Users\\necef\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\necef\\OneDrive\\İş masası\\OnionPronia\\src\\Core\\OnionPronia.Domain\\obj\\",
+        "outputPath": "C:\\Users\\necef\\OneDrive\\İş masası\\API\\OnionPronia\\src\\Core\\OnionPronia.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,12 @@
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Domain\bin\Debug\net8.0\OnionPronia.Domain.deps.json
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Domain\bin\Debug\net8.0\OnionPronia.Domain.dll
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Domain\bin\Debug\net8.0\OnionPronia.Domain.pdb
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Domain\obj\Debug\net8.0\OnionPronia.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Domain\obj\Debug\net8.0\OnionPronia.Domain.AssemblyInfoInputs.cache
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Domain\obj\Debug\net8.0\OnionPronia.Domain.AssemblyInfo.cs
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Domain\obj\Debug\net8.0\OnionPronia.Domain.csproj.CoreCompileInputs.cache
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Domain\obj\Debug\net8.0\OnionPronia.Domain.sourcelink.json
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Domain\obj\Debug\net8.0\OnionPronia.Domain.dll
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Domain\obj\Debug\net8.0\refint\OnionPronia.Domain.dll
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Domain\obj\Debug\net8.0\OnionPronia.Domain.pdb
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Core\OnionPronia.Domain\obj\Debug\net8.0\ref\OnionPronia.Domain.dll

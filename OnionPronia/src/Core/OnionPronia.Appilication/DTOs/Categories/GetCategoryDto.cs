@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace OnionPronia.Appilication.DTOs.Categories
 {
     public record GetCategoryDto(
-       int Id,
+       long Id,
        string Name,
        IEnumerable<GetProductInCategoryDto> ProductDtos
        );
