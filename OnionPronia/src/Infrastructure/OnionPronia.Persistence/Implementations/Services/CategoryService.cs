@@ -31,11 +31,15 @@ namespace OnionPronia.Persistence.Implementations.Services
             {
                 throw new Exception("Category Name Existed");
             }
-            Category category = new()
-            {
-                Name = categoryDto.Name,
-                CreatedAt= DateTime.Now
-            };
+
+
+            Category category = _mapper.Map<Category>(categoryDto);
+            category.CreatedAt = DateTime.Now;
+            //Category category = new()
+            //{
+            //    Name = categoryDto.Name,
+            //    CreatedAt= DateTime.Now
+            //};
 
             _repository.Add(category);
             await _repository.SaveChangesAsync();
@@ -44,33 +48,45 @@ namespace OnionPronia.Persistence.Implementations.Services
         public async Task<IReadOnlyList<GetCategoryItemDto>> GetAllAsync(int page, int take)
         {
 
-            return await _repository.GetAll(
+
+            var categories = await _repository
+                .GetAll(
                sort: c => c.Name,
                page: page,
                take: take,
-               includes: ["Products"]
-               ).Select(c => new GetCategoryItemDto(c.Id, c.Name, c.Products.Count))
-               .ToListAsync();
+               includes: nameof(Category.Products)
+               ).ToListAsync();
+            
+            return _mapper.Map<IReadOnlyList<GetCategoryItemDto>>(categories);
+
+
         }
 
         public async Task<GetCategoryDto> GetByIdAsync(int id)
         {
             Category? category = await _repository.GetByIdAsync(id, nameof(Category.Products));
+
             if (category is null) throw new Exception("Category not found");
 
-            return new GetCategoryDto(
-                category.Id,
-                category.Name,
-                category.Products.Select(p => new GetProductInCategoryDto(p.Id, p.Name, p.Price)));
+            return _mapper.Map<GetCategoryDto>(category);
+
+                //new GetCategoryDto(
+                //category.Id,
+                //category.Name,
+                //category.Products.Select(p => new GetProductInCategoryDto(p.Id, p.Name, p.Price)));
         }
 
         public async Task UpdateAsync(PutCategoryDto categoryDto, int id)
         {
             Category? category = await _repository.GetByIdAsync(id);
 
+
+
             if (category is null) throw new Exception("Category not found");
 
-            category.Name = categoryDto.Name;
+            category = _mapper.Map(categoryDto,category);
+
+            //category.Name = categoryDto.Name;
             category.UpdatedAt = DateTime.Now;
 
             _repository.Update(category);

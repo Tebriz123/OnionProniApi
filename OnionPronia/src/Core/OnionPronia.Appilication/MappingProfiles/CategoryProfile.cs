@@ -13,9 +13,18 @@ namespace OnionPronia.Appilication.MappingProfiles
     {
         public CategoryProfile()
         {
-            CreateMap<Category, GetCategoryItemDto>();
+            CreateMap<Category, GetCategoryItemDto>()
+                .ForCtorParam(nameof(GetCategoryItemDto.ProductCount),
+                opt => opt.MapFrom(c => c.Products.Count));
+                
+                //.ForMember(
+                //c=>c.ProductCount,
+                //opt=>opt.MapFrom(c=>c.Products.Count)
+                //);
 
-            CreateMap<Category, GetCategoryDto>();
+            CreateMap<Category, GetCategoryDto>()
+                .ForCtorParam(nameof(GetCategoryDto.ProductDtos)
+                ,opt=>opt.MapFrom(c=>c.Products));
 
             CreateMap<PostCategoryDto, Category>();
 

@@ -151,3 +151,6 @@ C:\Users\necef\OneDrive\İş masası\API\OnionPronia\Presentation\OnionPronia.AP
 C:\Users\necef\OneDrive\İş masası\API\OnionPronia\Presentation\OnionPronia.API\obj\Debug\net8.0\OnionPronia.API.pdb
 C:\Users\necef\OneDrive\İş masası\API\OnionPronia\Presentation\OnionPronia.API\obj\Debug\net8.0\OnionPronia.API.genruntimeconfig.cache
 C:\Users\necef\OneDrive\İş masası\API\OnionPronia\Presentation\OnionPronia.API\obj\Debug\net8.0\ref\OnionPronia.API.dll
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\Presentation\OnionPronia.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\Presentation\OnionPronia.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\Presentation\OnionPronia.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
