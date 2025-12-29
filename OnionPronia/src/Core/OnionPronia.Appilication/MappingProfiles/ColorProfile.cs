@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using OnionPronia.Appilication.DTOs.Colors;
+using OnionPronia.Appilication.DTOs.Tags;
 using OnionPronia.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,12 @@ namespace OnionPronia.Appilication.MappingProfiles
 
         public ColorProfile()
         {
+            CreateMap<Color, GetColorItemDto>();
             CreateMap<Color, GetColorInProductDto>();
+            CreateMap<PostColorDto, Color>();
+
+            CreateMap<PutColorDto, Color>();
+            CreateMap<Color, GetColorDto>();
         }
     }
 }

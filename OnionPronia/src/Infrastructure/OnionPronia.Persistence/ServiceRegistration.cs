@@ -27,9 +27,14 @@ namespace OnionPronia.Persistence
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<ITagRepository, TagRepository>();
+            services.AddScoped<IColorRepository, ColorRepository>();
+            services.AddScoped<ISizeRepository, SizeRepository>();
 
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<ITagService, TagService>();
+            services.AddScoped<ISizeService, SizeService>();
+            services.AddScoped<IColorService, ColorService>();
             return services;
         }
         

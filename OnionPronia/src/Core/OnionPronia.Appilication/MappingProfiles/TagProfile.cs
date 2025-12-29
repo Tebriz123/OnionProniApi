@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using OnionPronia.Appilication.DTOs.Categories;
 using OnionPronia.Appilication.DTOs.Tags;
 using OnionPronia.Domain.Entities;
 using System;
@@ -14,7 +15,12 @@ namespace OnionPronia.Appilication.MappingProfiles
 
         public TagProfile()
         {
+            CreateMap<Tag, GetTagItemDto>();
             CreateMap<Tag, GetTagInProductDto>();
+            CreateMap<PostTagDto, Tag>();
+
+            CreateMap<PutTagDto, Tag>();
+            CreateMap<Tag, GetTagDto>();
         }
     }
 }
