@@ -6,7 +6,7 @@ using OnionPronia.Appilication.Interfaces.Services;
 
 namespace OnionPronia.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class CategoriesController : ControllerBase
     {

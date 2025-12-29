@@ -154,3 +154,4 @@ C:\Users\necef\OneDrive\İş masası\API\OnionPronia\Presentation\OnionPronia.AP
 C:\Users\necef\OneDrive\İş masası\API\OnionPronia\Presentation\OnionPronia.API\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\necef\OneDrive\İş masası\API\OnionPronia\Presentation\OnionPronia.API\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\necef\OneDrive\İş masası\API\OnionPronia\Presentation\OnionPronia.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\Presentation\OnionPronia.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll

@@ -26,6 +26,7 @@ namespace OnionPronia.Appilication.MappingProfiles
                 .ForCtorParam(nameof(GetCategoryDto.ProductDtos)
                 ,opt=>opt.MapFrom(c=>c.Products));
 
+            CreateMap<Category, GetCategoryInProductDto>();
             CreateMap<PostCategoryDto, Category>();
 
             CreateMap<PutCategoryDto, Category>();

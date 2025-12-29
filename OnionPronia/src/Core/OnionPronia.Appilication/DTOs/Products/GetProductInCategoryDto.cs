@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnionPronia.Appilication.DTOs.Categories
+namespace OnionPronia.Appilication.DTOs.Products
 {
     public record GetProductInCategoryDto(
         long id,
