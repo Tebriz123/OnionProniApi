@@ -34,7 +34,6 @@ namespace OnionPronia.Persistence.Implementations.Services
 
 
             Category category = _mapper.Map<Category>(categoryDto);
-            category.CreatedAt = DateTime.Now;
             //Category category = new()
             //{
             //    Name = categoryDto.Name,
@@ -87,7 +86,7 @@ namespace OnionPronia.Persistence.Implementations.Services
             category = _mapper.Map(categoryDto,category);
 
             //category.Name = categoryDto.Name;
-            category.UpdatedAt = DateTime.Now;
+
 
             _repository.Update(category);
             await _repository.SaveChangesAsync();
@@ -101,5 +100,17 @@ namespace OnionPronia.Persistence.Implementations.Services
             _repository.Remove(category);
             await _repository.SaveChangesAsync();
         }
+
+        public async Task SoftDeleteAsync(int id)
+        {
+            Category? category = await _repository.GetByIdAsync(id);
+
+            if (category is null) throw new Exception("Category not found");
+
+            category.IsDeleted = true;
+            _repository.Update(category);
+            await _repository.SaveChangesAsync();
+        }
+
     }
 }

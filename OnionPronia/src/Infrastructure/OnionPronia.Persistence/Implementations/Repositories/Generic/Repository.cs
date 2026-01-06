@@ -58,7 +58,7 @@ namespace OnionPronia.Persistence.Implementations.Repositories
 
         public async Task<T?> GetByIdAsync(long id, params string[] includes)
         {
-            IQueryable<T> query = _dbSet.AsNoTracking();
+            IQueryable<T> query = _dbSet;
             if (includes is not null)
             {
                 query = _getIncludes(query, includes);

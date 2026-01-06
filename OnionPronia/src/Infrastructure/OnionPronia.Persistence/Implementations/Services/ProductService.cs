@@ -16,11 +16,25 @@ namespace OnionPronia.Persistence.Implementations.Services
     {
         private readonly IProductRepository _repository;
         private readonly IMapper _mapper;
+        private readonly ICategoryRepository _categoryRepository;
+        private readonly ITagRepository _tagRepository;
+        private readonly IColorRepository _colorRepository;
+        private readonly ISizeRepository _sizeRepository;
 
-        public ProductService(IProductRepository repository, IMapper mapper)
+        public ProductService(
+            IProductRepository repository, 
+            IMapper mapper,
+            ICategoryRepository categoryRepository,
+            ITagRepository tagRepository,
+            IColorRepository colorRepository,
+            ISizeRepository sizeRepository)
         {
             _repository = repository;
             _mapper = mapper;
+            _categoryRepository = categoryRepository;
+            _tagRepository = tagRepository;
+            _colorRepository = colorRepository;
+            _sizeRepository = sizeRepository;
         }
 
         public async Task<IReadOnlyList<GetProductItemDto>> GetAllAsync(int page, int take)
@@ -41,6 +55,45 @@ namespace OnionPronia.Persistence.Implementations.Services
             if (product is null) throw new Exception("Entity not found");
 
             return _mapper.Map<GetProductDto>(product);
+        }
+
+        public async Task CreateProductAsync(PostProductDto productDto)
+        {
+            bool result = await _repository.AnyAsync(p => p.Name == productDto.Name);
+            if (result)
+            {
+                throw new Exception("Entity already exists");
+            }
+
+            bool categoryResult = await _categoryRepository.AnyAsync(c=>c.Id==productDto.CategoryId);
+            if(!categoryResult)
+            {
+                throw new Exception("Category does not exists");
+            }
+             var tags = await _tagRepository.GetAll(t=>productDto.TagIds.Contains(t.Id)).ToListAsync();
+
+            if (tags.Count != productDto.TagIds.Count())
+            {
+                throw new Exception("Tag does not exists");
+            }
+            var colors = await _colorRepository.GetAll(c => productDto.ColorIds.Contains(c.Id)).ToListAsync();
+
+            if (colors.Count != productDto.ColorIds.Count())
+            {
+                throw new Exception("Color does not exists");
+            }
+            var sizes = await _sizeRepository.GetAll(s => productDto.SizeIds.Contains(s.Id)).ToListAsync();
+
+            if (sizes.Count != productDto.SizeIds.Count())
+            {
+                throw new Exception("Size does not exists");
+            }
+
+            Product product = _mapper.Map<Product>(productDto);
+
+
+            _repository.Add(product);
+            await _repository.SaveChangesAsync();
         }
     }
 }

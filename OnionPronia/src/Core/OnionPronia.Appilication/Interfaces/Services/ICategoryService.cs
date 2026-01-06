@@ -17,5 +17,6 @@ namespace OnionPronia.Appilication.Interfaces.Services
         Task UpdateAsync(PutCategoryDto categoryDto, int id);
 
         Task RemoveAsync(int id);
+        Task SoftDeleteAsync(int id);
     }
 }

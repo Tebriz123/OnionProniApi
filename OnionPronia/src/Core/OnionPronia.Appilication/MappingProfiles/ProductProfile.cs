@@ -40,6 +40,20 @@ namespace OnionPronia.Appilication.MappingProfiles
                 .Select(ps=>new GetSizeInProductDto(ps.Size.Id,ps.Size.Name))
                 .ToList()));
 
+            CreateMap<PostProductDto, Product>()
+                .ForMember(
+                p => p.ProductTags,
+                opt => opt.MapFrom(pDto => pDto.TagIds
+                                                      .Select(tId => new ProductTag { TagId = tId })))
+                 .ForMember(
+                p => p.ProductColors,
+                opt => opt.MapFrom(pDto => pDto.ColorIds
+                                                      .Select(cId => new ProductColor { ColorId = cId })))
+                  .ForMember(
+                p => p.ProductSizes,
+                opt => opt.MapFrom(pDto => pDto.SizeIds
+                                                      .Select(sId => new ProductSize { SizeId = sId })));
+
         }
     }
 }
