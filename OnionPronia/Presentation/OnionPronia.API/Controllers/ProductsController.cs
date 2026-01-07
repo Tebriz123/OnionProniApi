@@ -27,10 +27,16 @@ namespace OnionPronia.API.Controllers
             return Ok(await _service.GetByIdAsync(id));
         }
         [HttpPost]
-        public async Task<IActionResult> PostAsync([FromForm] PostProductDto productDto)
+        public async Task<IActionResult> PostAsync([FromBody] PostProductDto productDto)
         {
             await _service.CreateProductAsync(productDto);
             return Created();
+        }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutAsync(long id,[FromBody] PutProductDto productDto)
+        {
+            await _service.UpdateProductAsync(id,productDto);
+            return NoContent();
         }
     }
 }

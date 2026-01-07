@@ -12,5 +12,7 @@ namespace OnionPronia.Appilication.Interfaces.Services
         Task<IReadOnlyList<GetProductItemDto>> GetAllAsync(int page, int take);
         Task<GetProductDto> GetByIdAsync(long id);
         Task CreateProductAsync(PostProductDto productDto);
+
+        Task UpdateProductAsync(long id, PutProductDto productDto);
     }
 }

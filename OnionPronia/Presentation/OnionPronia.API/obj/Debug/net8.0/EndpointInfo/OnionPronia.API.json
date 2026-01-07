@@ -351,75 +351,19 @@
         ],
         "requestBody": {
           "content": {
-            "multipart/form-data": {
+            "application/json": {
               "schema": {
-                "type": "object",
-                "properties": {
-                  "Name": {
-                    "type": "string"
-                  },
-                  "Price": {
-                    "type": "number",
-                    "format": "double"
-                  },
-                  "SKU": {
-                    "type": "string"
-                  },
-                  "Description": {
-                    "type": "string"
-                  },
-                  "CategoryId": {
-                    "type": "integer",
-                    "format": "int64"
-                  },
-                  "TagIds": {
-                    "type": "array",
-                    "items": {
-                      "type": "integer",
-                      "format": "int64"
-                    }
-                  },
-                  "SizeIds": {
-                    "type": "array",
-                    "items": {
-                      "type": "integer",
-                      "format": "int64"
-                    }
-                  },
-                  "ColorIds": {
-                    "type": "array",
-                    "items": {
-                      "type": "integer",
-                      "format": "int64"
-                    }
-                  }
-                }
-              },
-              "encoding": {
-                "Name": {
-                  "style": "form"
-                },
-                "Price": {
-                  "style": "form"
-                },
-                "SKU": {
-                  "style": "form"
-                },
-                "Description": {
-                  "style": "form"
-                },
-                "CategoryId": {
-                  "style": "form"
-                },
-                "TagIds": {
-                  "style": "form"
-                },
-                "SizeIds": {
-                  "style": "form"
-                },
-                "ColorIds": {
-                  "style": "form"
-                }
+                "$ref": "#/components/schemas/PostProductDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PostProductDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PostProductDto"
               }
             }
           }
@@ -447,6 +391,46 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PutProductDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PutProductDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PutProductDto"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -741,5 +725,108 @@
       }
     }
   },
-  "components": { }
+  "components": {
+    "schemas": {
+      "PostProductDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "sku": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "categoryId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "tagIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "nullable": true
+          },
+          "sizeIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "nullable": true
+          },
+          "colorIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PutProductDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "sku": {
+            "type": "string",
+            "nullable": true
+          },
+          "categoryId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "tagIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "nullable": true
+          },
+          "sizeIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "nullable": true
+          },
+          "colorIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
 }

@@ -70,19 +70,19 @@ namespace OnionPronia.Persistence.Implementations.Services
             {
                 throw new Exception("Category does not exists");
             }
-             var tags = await _tagRepository.GetAll(t=>productDto.TagIds.Contains(t.Id)).ToListAsync();
+             var tags = await _tagRepository.GetAll(t=>productDto.TagIds.Distinct().Contains(t.Id)).ToListAsync();
 
             if (tags.Count != productDto.TagIds.Count())
             {
                 throw new Exception("Tag does not exists");
             }
-            var colors = await _colorRepository.GetAll(c => productDto.ColorIds.Contains(c.Id)).ToListAsync();
+            var colors = await _colorRepository.GetAll(c => productDto.ColorIds.Distinct().Contains(c.Id)).ToListAsync();
 
             if (colors.Count != productDto.ColorIds.Count())
             {
                 throw new Exception("Color does not exists");
             }
-            var sizes = await _sizeRepository.GetAll(s => productDto.SizeIds.Contains(s.Id)).ToListAsync();
+            var sizes = await _sizeRepository.GetAll(s => productDto.SizeIds.Distinct().Contains(s.Id)).ToListAsync();
 
             if (sizes.Count != productDto.SizeIds.Count())
             {
@@ -94,6 +94,49 @@ namespace OnionPronia.Persistence.Implementations.Services
 
             _repository.Add(product);
             await _repository.SaveChangesAsync();
+        }
+
+        public async Task UpdateProductAsync(long id, PutProductDto productDto)
+        {
+            bool result = await _repository.AnyAsync(p => p.Name == productDto.Name && p.Id !=id);
+
+            if (result)
+            {
+                throw new Exception("Entity already exists");
+            }
+
+            bool categoryResult = await _categoryRepository.AnyAsync(c => c.Id == productDto.CategoryId);
+            if (!categoryResult)
+            {
+                throw new Exception("Category does not exists");
+            }
+
+            var tags = await _tagRepository.GetAll(t => productDto.TagIds.Distinct().Contains(t.Id)).ToListAsync();
+
+            if (tags.Count != productDto.TagIds.Count())
+            {
+                throw new Exception("Tag does not exists");
+            }
+            var colors = await _colorRepository.GetAll(c => productDto.ColorIds.Distinct().Contains(c.Id)).ToListAsync();
+
+            if (colors.Count != productDto.ColorIds.Count())
+            {
+                throw new Exception("Color does not exists");
+            }
+            var sizes = await _sizeRepository.GetAll(s => productDto.SizeIds.Distinct().Contains(s.Id)).ToListAsync();
+
+            if (sizes.Count != productDto.SizeIds.Count())
+            {
+                throw new Exception("Size does not exists");
+            }
+
+
+            Product product = await _repository.GetByIdAsync(id,"ProductTags","ProductColors","ProductSizes");
+            
+            _repository.Update(_mapper.Map(productDto,product));
+            await _repository.SaveChangesAsync();
+            
+
         }
     }
 }
