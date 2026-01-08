@@ -1,11 +1,16 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
 using OnionPronia.Appilication.DTOs.AppUsers;
 using OnionPronia.Appilication.Interfaces.Services;
 using OnionPronia.Domain.Entities;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,15 +20,77 @@ namespace OnionPronia.Persistence.Implementations.Services
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly IMapper _mapper;
+        private readonly IConfiguration _configration;
 
-        public AuthenticationService(UserManager<AppUser> userManager,IMapper mapper)
+        public AuthenticationService(
+            UserManager<AppUser> userManager,
+            IMapper mapper,
+            IConfiguration configration
+            )
         {
             _userManager = userManager;
             _mapper = mapper;
+            _configration = configration;
         }
         public async Task RegisterAsync(RegisterDto userDto)
         {
-            await _userManager.CreateAsync(_mapper.Map<AppUser>(userDto), userDto.Password);
+           IdentityResult result = await _userManager.CreateAsync(_mapper.Map<AppUser>(userDto), userDto.Password);
+
+
+
+            if(!result.Succeeded)
+            {
+                StringBuilder sb = new();
+                foreach(IdentityError error in result.Errors)
+                {
+                    sb.Append(error.Description);
+                }
+                throw new Exception(sb.ToString());
+            }
+
+        }
+
+        public async Task<string> LoginAsync(LoginDto userDto)
+        {
+          AppUser user = await _userManager.Users.FirstOrDefaultAsync(u=>u.UserName==userDto.UsernameOrEmail || u.Email==userDto.UsernameOrEmail);
+
+            if(user is null)
+            {
+                throw new Exception("User information is wrong");
+            }
+
+            bool result = await _userManager.CheckPasswordAsync(user, userDto.Password);
+            if (!result)
+            {
+               await _userManager.AccessFailedAsync(user);
+                throw new Exception("User information is wrong");
+            }
+
+            IEnumerable<Claim> userClaims = new List<Claim>
+            {
+                new Claim(ClaimTypes.NameIdentifier,user.Id),
+                new Claim(ClaimTypes.Name,user.UserName),
+                new Claim (ClaimTypes.Email,user.Email),
+                new Claim (ClaimTypes.Surname,user.Surname),
+                new Claim (ClaimTypes.GivenName,user.Name)
+            };
+
+            SymmetricSecurityKey securityKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_configration["JWT:secretKey"]));
+
+            SigningCredentials credentials = new SigningCredentials(securityKey,SecurityAlgorithms.HmacSha256); 
+
+
+            JwtSecurityToken securityToken = new JwtSecurityToken(
+                issuer: _configration["JWT:issuer"],
+                audience: _configration["JWT:audience"],
+                expires:DateTime.Now.AddMinutes(15),
+                notBefore:DateTime.Now,
+                claims:userClaims,
+                signingCredentials: credentials
+                );
+            JwtSecurityTokenHandler handler = new JwtSecurityTokenHandler();
+           return handler.WriteToken(securityToken);
+
         }
 
     }
