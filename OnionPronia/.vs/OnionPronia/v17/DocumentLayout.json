@@ -3,84 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\core\\onionpronia.appilication\\mappingprofiles\\appuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|solutionrelative:src\\core\\onionpronia.appilication\\mappingprofiles\\appuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB9D4232-4F9D-4438-8EC1-639CACE921DF}|src\\Infrastructure\\OnionPronia.Infrastructure\\OnionPronia.Infrastructure.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\infrastructure\\onionpronia.infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9D4232-4F9D-4438-8EC1-639CACE921DF}|src\\Infrastructure\\OnionPronia.Infrastructure\\OnionPronia.Infrastructure.csproj|solutionrelative:src\\infrastructure\\onionpronia.infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55DEF7E3-F0FA-4ED7-A9B1-BE73E03652F0}|src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\infrastructure\\onionpronia.persistence\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55DEF7E3-F0FA-4ED7-A9B1-BE73E03652F0}|src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj|solutionrelative:src\\infrastructure\\onionpronia.persistence\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\core\\onionpronia.appilication\\validator\\logindtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|solutionrelative:src\\core\\onionpronia.appilication\\validator\\logindtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\core\\onionpronia.appilication\\interfaces\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|solutionrelative:src\\core\\onionpronia.appilication\\interfaces\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF963C7F-895A-46B6-8EB1-F8ED0FF5863C}|Presentation\\OnionPronia.API\\OnionPronia.API.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\presentation\\onionpronia.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BF963C7F-895A-46B6-8EB1-F8ED0FF5863C}|Presentation\\OnionPronia.API\\OnionPronia.API.csproj|solutionrelative:presentation\\onionpronia.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF963C7F-895A-46B6-8EB1-F8ED0FF5863C}|Presentation\\OnionPronia.API\\OnionPronia.API.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\presentation\\onionpronia.api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF963C7F-895A-46B6-8EB1-F8ED0FF5863C}|Presentation\\OnionPronia.API\\OnionPronia.API.csproj|solutionrelative:presentation\\onionpronia.api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55DEF7E3-F0FA-4ED7-A9B1-BE73E03652F0}|src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\infrastructure\\onionpronia.persistence\\implementations\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55DEF7E3-F0FA-4ED7-A9B1-BE73E03652F0}|src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj|solutionrelative:src\\infrastructure\\onionpronia.persistence\\implementations\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\core\\onionpronia.appilication\\validator\\registerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|solutionrelative:src\\core\\onionpronia.appilication\\validator\\registerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\core\\onionpronia.appilication\\dtos\\appusers\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|solutionrelative:src\\core\\onionpronia.appilication\\dtos\\appusers\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55DEF7E3-F0FA-4ED7-A9B1-BE73E03652F0}|src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\infrastructure\\onionpronia.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55DEF7E3-F0FA-4ED7-A9B1-BE73E03652F0}|src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj|solutionrelative:src\\infrastructure\\onionpronia.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\core\\onionpronia.appilication\\dtos\\appusers\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|solutionrelative:src\\core\\onionpronia.appilication\\dtos\\appusers\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55DEF7E3-F0FA-4ED7-A9B1-BE73E03652F0}|src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\infrastructure\\onionpronia.persistence\\dal\\migrations\\20260107130622_createuseridentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55DEF7E3-F0FA-4ED7-A9B1-BE73E03652F0}|src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj|solutionrelative:src\\infrastructure\\onionpronia.persistence\\dal\\migrations\\20260107130622_createuseridentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55DEF7E3-F0FA-4ED7-A9B1-BE73E03652F0}|src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\infrastructure\\onionpronia.persistence\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55DEF7E3-F0FA-4ED7-A9B1-BE73E03652F0}|src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj|solutionrelative:src\\infrastructure\\onionpronia.persistence\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A751253D-1F8E-4259-97C5-CB07FC63BCBC}|src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\core\\onionpronia.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A751253D-1F8E-4259-97C5-CB07FC63BCBC}|src\\Core\\OnionPronia.Domain\\OnionPronia.Domain.csproj|solutionrelative:src\\core\\onionpronia.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55DEF7E3-F0FA-4ED7-A9B1-BE73E03652F0}|src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\infrastructure\\onionpronia.persistence\\implementations\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55DEF7E3-F0FA-4ED7-A9B1-BE73E03652F0}|src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj|solutionrelative:src\\infrastructure\\onionpronia.persistence\\implementations\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB9D4232-4F9D-4438-8EC1-639CACE921DF}|src\\Infrastructure\\OnionPronia.Infrastructure\\OnionPronia.Infrastructure.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\infrastructure\\onionpronia.infrastructure\\implementations\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9D4232-4F9D-4438-8EC1-639CACE921DF}|src\\Infrastructure\\OnionPronia.Infrastructure\\OnionPronia.Infrastructure.csproj|solutionrelative:src\\infrastructure\\onionpronia.infrastructure\\implementations\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF963C7F-895A-46B6-8EB1-F8ED0FF5863C}|Presentation\\OnionPronia.API\\OnionPronia.API.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\presentation\\onionpronia.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF963C7F-895A-46B6-8EB1-F8ED0FF5863C}|Presentation\\OnionPronia.API\\OnionPronia.API.csproj|solutionrelative:presentation\\onionpronia.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\core\\onionpronia.appilication\\interfaces\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|solutionrelative:src\\core\\onionpronia.appilication\\interfaces\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF963C7F-895A-46B6-8EB1-F8ED0FF5863C}|Presentation\\OnionPronia.API\\OnionPronia.API.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\presentation\\onionpronia.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF963C7F-895A-46B6-8EB1-F8ED0FF5863C}|Presentation\\OnionPronia.API\\OnionPronia.API.csproj|solutionrelative:presentation\\onionpronia.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\core\\onionpronia.appilication\\mappingprofiles\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|solutionrelative:src\\core\\onionpronia.appilication\\mappingprofiles\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55DEF7E3-F0FA-4ED7-A9B1-BE73E03652F0}|src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\infrastructure\\onionpronia.persistence\\implementations\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55DEF7E3-F0FA-4ED7-A9B1-BE73E03652F0}|src\\Infrastructure\\OnionPronia.Persistence\\OnionPronia.Persistence.csproj|solutionrelative:src\\infrastructure\\onionpronia.persistence\\implementations\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\core\\onionpronia.appilication\\validator\\putproductdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|solutionrelative:src\\core\\onionpronia.appilication\\validator\\putproductdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\core\\onionpronia.appilication\\interfaces\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|solutionrelative:src\\core\\onionpronia.appilication\\interfaces\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\core\\onionpronia.appilication\\dtos\\products\\putproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|solutionrelative:src\\core\\onionpronia.appilication\\dtos\\products\\putproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\core\\onionpronia.appilication\\interfaces\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|solutionrelative:src\\core\\onionpronia.appilication\\interfaces\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\api\\onionpronia\\src\\core\\onionpronia.appilication\\dtos\\tokens\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70052F5B-39E2-4B3D-8005-6C6DDF3DAB2E}|src\\Core\\OnionPronia.Appilication\\OnionPronia.Appilication.csproj|solutionrelative:src\\core\\onionpronia.appilication\\dtos\\tokens\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,257 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\Presentation\\OnionPronia.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Presentation\\OnionPronia.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\Presentation\\OnionPronia.API\\appsettings.json",
-              "RelativeToolTip": "Presentation\\OnionPronia.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-08T12:13:35.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\Validator\\LoginDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\Core\\OnionPronia.Appilication\\Validator\\LoginDtoValidator.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\Validator\\LoginDtoValidator.cs",
-              "RelativeToolTip": "src\\Core\\OnionPronia.Appilication\\Validator\\LoginDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T11:22:49.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\DTOs\\AppUsers\\LoginDto.cs",
-              "RelativeDocumentMoniker": "src\\Core\\OnionPronia.Appilication\\DTOs\\AppUsers\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\DTOs\\AppUsers\\LoginDto.cs",
-              "RelativeToolTip": "src\\Core\\OnionPronia.Appilication\\DTOs\\AppUsers\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T11:21:02.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AccountsController.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\Presentation\\OnionPronia.API\\Controllers\\AccountsController.cs",
-              "RelativeDocumentMoniker": "Presentation\\OnionPronia.API\\Controllers\\AccountsController.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\Presentation\\OnionPronia.API\\Controllers\\AccountsController.cs",
-              "RelativeToolTip": "Presentation\\OnionPronia.API\\Controllers\\AccountsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T11:08:58.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppUserProfile.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\MappingProfiles\\AppUserProfile.cs",
-              "RelativeDocumentMoniker": "src\\Core\\OnionPronia.Appilication\\MappingProfiles\\AppUserProfile.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\MappingProfiles\\AppUserProfile.cs",
-              "RelativeToolTip": "src\\Core\\OnionPronia.Appilication\\MappingProfiles\\AppUserProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T13:33:06.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\Implementations\\Services\\AuthenticationService.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\OnionPronia.Persistence\\Implementations\\Services\\AuthenticationService.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\Implementations\\Services\\AuthenticationService.cs",
-              "RelativeToolTip": "src\\Infrastructure\\OnionPronia.Persistence\\Implementations\\Services\\AuthenticationService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAqwF0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T13:30:59.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IAuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\Interfaces\\Services\\IAuthenticationService.cs",
-              "RelativeDocumentMoniker": "src\\Core\\OnionPronia.Appilication\\Interfaces\\Services\\IAuthenticationService.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\Interfaces\\Services\\IAuthenticationService.cs",
-              "RelativeToolTip": "src\\Core\\OnionPronia.Appilication\\Interfaces\\Services\\IAuthenticationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T13:29:53.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegisterDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\Validator\\RegisterDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\Core\\OnionPronia.Appilication\\Validator\\RegisterDtoValidator.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\Validator\\RegisterDtoValidator.cs",
-              "RelativeToolTip": "src\\Core\\OnionPronia.Appilication\\Validator\\RegisterDtoValidator.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwCQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T13:12:01.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\DTOs\\AppUsers\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "src\\Core\\OnionPronia.Appilication\\DTOs\\AppUsers\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\DTOs\\AppUsers\\RegisterDto.cs",
-              "RelativeToolTip": "src\\Core\\OnionPronia.Appilication\\DTOs\\AppUsers\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T13:08:51.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20260107130622_CreateUserIdentityTables.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\DAL\\Migrations\\20260107130622_CreateUserIdentityTables.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\OnionPronia.Persistence\\DAL\\Migrations\\20260107130622_CreateUserIdentityTables.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\DAL\\Migrations\\20260107130622_CreateUserIdentityTables.cs",
-              "RelativeToolTip": "src\\Infrastructure\\OnionPronia.Persistence\\DAL\\Migrations\\20260107130622_CreateUserIdentityTables.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T13:06:22.99Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppUserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\Configurations\\AppUserConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\OnionPronia.Persistence\\Configurations\\AppUserConfiguration.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\Configurations\\AppUserConfiguration.cs",
-              "RelativeToolTip": "src\\Infrastructure\\OnionPronia.Persistence\\Configurations\\AppUserConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T12:59:00.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\OnionPronia.Persistence\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\ServiceRegistration.cs",
-              "RelativeToolTip": "src\\Infrastructure\\OnionPronia.Persistence\\ServiceRegistration.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAQwDMAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T12:45:05.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\DAL\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\OnionPronia.Persistence\\DAL\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\DAL\\AppDbContext.cs",
-              "RelativeToolTip": "src\\Infrastructure\\OnionPronia.Persistence\\DAL\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T12:43:20.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Domain\\Entities\\AppUser.cs",
-              "RelativeDocumentMoniker": "src\\Core\\OnionPronia.Domain\\Entities\\AppUser.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Domain\\Entities\\AppUser.cs",
-              "RelativeToolTip": "src\\Core\\OnionPronia.Domain\\Entities\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T12:39:30.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\Presentation\\OnionPronia.API\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Presentation\\OnionPronia.API\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\Presentation\\OnionPronia.API\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Presentation\\OnionPronia.API\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA1wB0AAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T12:06:32.786Z"
+              "WhenOpened": "2026-01-09T11:53:09.717Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\Interfaces\\Services\\IProductService.cs",
-              "RelativeDocumentMoniker": "src\\Core\\OnionPronia.Appilication\\Interfaces\\Services\\IProductService.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\Interfaces\\Services\\IProductService.cs",
-              "RelativeToolTip": "src\\Core\\OnionPronia.Appilication\\Interfaces\\Services\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABDAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\Presentation\\OnionPronia.API\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\OnionPronia.API\\Program.cs",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\Presentation\\OnionPronia.API\\Program.cs",
+              "RelativeToolTip": "Presentation\\OnionPronia.API\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T12:06:21.336Z"
+              "WhenOpened": "2026-01-09T11:04:32.608Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ProductProfile.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\MappingProfiles\\ProductProfile.cs",
-              "RelativeDocumentMoniker": "src\\Core\\OnionPronia.Appilication\\MappingProfiles\\ProductProfile.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\MappingProfiles\\ProductProfile.cs",
-              "RelativeToolTip": "src\\Core\\OnionPronia.Appilication\\MappingProfiles\\ProductProfile.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwDkAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Infrastructure\\OnionPronia.Infrastructure\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\OnionPronia.Infrastructure\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Infrastructure\\OnionPronia.Infrastructure\\ServiceRegistration.cs",
+              "RelativeToolTip": "src\\Infrastructure\\OnionPronia.Infrastructure\\ServiceRegistration.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACEAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:52:06.977Z"
+              "WhenOpened": "2026-01-09T11:02:05.814Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PutProductDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\Validator\\PutProductDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\Core\\OnionPronia.Appilication\\Validator\\PutProductDtoValidator.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\Validator\\PutProductDtoValidator.cs",
-              "RelativeToolTip": "src\\Core\\OnionPronia.Appilication\\Validator\\PutProductDtoValidator.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwD8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\Interfaces\\Services\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "src\\Core\\OnionPronia.Appilication\\Interfaces\\Services\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\Interfaces\\Services\\IAuthenticationService.cs",
+              "RelativeToolTip": "src\\Core\\OnionPronia.Appilication\\Interfaces\\Services\\IAuthenticationService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:48:39.255Z"
+              "WhenOpened": "2026-01-09T11:00:49.511Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "PutProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\DTOs\\Products\\PutProductDto.cs",
-              "RelativeDocumentMoniker": "src\\Core\\OnionPronia.Appilication\\DTOs\\Products\\PutProductDto.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\DTOs\\Products\\PutProductDto.cs",
-              "RelativeToolTip": "src\\Core\\OnionPronia.Appilication\\DTOs\\Products\\PutProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "TokenResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\DTOs\\Tokens\\TokenResponseDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\OnionPronia.Appilication\\DTOs\\Tokens\\TokenResponseDto.cs",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\DTOs\\Tokens\\TokenResponseDto.cs",
+              "RelativeToolTip": "src\\Core\\OnionPronia.Appilication\\DTOs\\Tokens\\TokenResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:46:22.653Z"
+              "WhenOpened": "2026-01-09T10:48:55.474Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\Implementations\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\OnionPronia.Persistence\\Implementations\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\Implementations\\Services\\ProductService.cs",
-              "RelativeToolTip": "src\\Infrastructure\\OnionPronia.Persistence\\Implementations\\Services\\ProductService.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAowIUAAABrAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Infrastructure\\OnionPronia.Infrastructure\\Implementations\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\OnionPronia.Infrastructure\\Implementations\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Infrastructure\\OnionPronia.Infrastructure\\Implementations\\Services\\TokenService.cs",
+              "RelativeToolTip": "src\\Infrastructure\\OnionPronia.Infrastructure\\Implementations\\Services\\TokenService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:42:53.091Z"
+              "WhenOpened": "2026-01-09T10:40:46.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\Interfaces\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "src\\Core\\OnionPronia.Appilication\\Interfaces\\Services\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Core\\OnionPronia.Appilication\\Interfaces\\Services\\ITokenService.cs",
+              "RelativeToolTip": "src\\Core\\OnionPronia.Appilication\\Interfaces\\Services\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:39:27.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\Implementations\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\OnionPronia.Persistence\\Implementations\\Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\API\\OnionPronia\\src\\Infrastructure\\OnionPronia.Persistence\\Implementations\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "src\\Infrastructure\\OnionPronia.Persistence\\Implementations\\Services\\AuthenticationService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:33:45.939Z",
+              "EditorCaption": ""
             }
           ]
         }

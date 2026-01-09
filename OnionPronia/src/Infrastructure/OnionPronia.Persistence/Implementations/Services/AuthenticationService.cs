@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using OnionPronia.Appilication.DTOs.AppUsers;
+using OnionPronia.Appilication.DTOs.Tokens;
 using OnionPronia.Appilication.Interfaces.Services;
 using OnionPronia.Domain.Entities;
 using System;
@@ -20,17 +21,20 @@ namespace OnionPronia.Persistence.Implementations.Services
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly IMapper _mapper;
-        private readonly IConfiguration _configration;
+        private readonly IConfiguration _configuration;
+        private readonly ITokenService _tokenService;
 
         public AuthenticationService(
             UserManager<AppUser> userManager,
             IMapper mapper,
-            IConfiguration configration
+            IConfiguration configuration,
+            ITokenService tokenService
             )
         {
             _userManager = userManager;
             _mapper = mapper;
-            _configration = configration;
+            _configuration = configuration;
+            _tokenService = tokenService;
         }
         public async Task RegisterAsync(RegisterDto userDto)
         {
@@ -50,7 +54,7 @@ namespace OnionPronia.Persistence.Implementations.Services
 
         }
 
-        public async Task<string> LoginAsync(LoginDto userDto)
+        public async Task<TokenResponseDto> LoginAsync(LoginDto userDto)
         {
           AppUser user = await _userManager.Users.FirstOrDefaultAsync(u=>u.UserName==userDto.UsernameOrEmail || u.Email==userDto.UsernameOrEmail);
 
@@ -66,30 +70,9 @@ namespace OnionPronia.Persistence.Implementations.Services
                 throw new Exception("User information is wrong");
             }
 
-            IEnumerable<Claim> userClaims = new List<Claim>
-            {
-                new Claim(ClaimTypes.NameIdentifier,user.Id),
-                new Claim(ClaimTypes.Name,user.UserName),
-                new Claim (ClaimTypes.Email,user.Email),
-                new Claim (ClaimTypes.Surname,user.Surname),
-                new Claim (ClaimTypes.GivenName,user.Name)
-            };
-
-            SymmetricSecurityKey securityKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_configration["JWT:secretKey"]));
-
-            SigningCredentials credentials = new SigningCredentials(securityKey,SecurityAlgorithms.HmacSha256); 
+            return _tokenService.CreateAccessToken(user,15);
 
 
-            JwtSecurityToken securityToken = new JwtSecurityToken(
-                issuer: _configration["JWT:issuer"],
-                audience: _configration["JWT:audience"],
-                expires:DateTime.Now.AddMinutes(15),
-                notBefore:DateTime.Now,
-                claims:userClaims,
-                signingCredentials: credentials
-                );
-            JwtSecurityTokenHandler handler = new JwtSecurityTokenHandler();
-           return handler.WriteToken(securityToken);
 
         }
 

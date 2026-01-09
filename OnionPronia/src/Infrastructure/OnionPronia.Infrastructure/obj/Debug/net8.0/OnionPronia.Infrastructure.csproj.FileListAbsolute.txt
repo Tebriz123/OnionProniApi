@@ -10,3 +10,9 @@ C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Infrastructure\OnionPro
 C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\obj\Debug\net8.0\refint\OnionPronia.Infrastructure.dll
 C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\obj\Debug\net8.0\OnionPronia.Infrastructure.pdb
 C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\obj\Debug\net8.0\ref\OnionPronia.Infrastructure.dll
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\bin\Debug\net8.0\OnionPronia.Appilication.dll
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\bin\Debug\net8.0\OnionPronia.Domain.dll
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\bin\Debug\net8.0\OnionPronia.Appilication.pdb
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\bin\Debug\net8.0\OnionPronia.Domain.pdb
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\obj\Debug\net8.0\OnionPronia.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\necef\OneDrive\İş masası\API\OnionPronia\src\Infrastructure\OnionPronia.Infrastructure\obj\Debug\net8.0\OnionPro.5C070D9E.Up2Date

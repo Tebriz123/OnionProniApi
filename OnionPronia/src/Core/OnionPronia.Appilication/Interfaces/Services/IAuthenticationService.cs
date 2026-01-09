@@ -1,4 +1,5 @@
 ﻿using OnionPronia.Appilication.DTOs.AppUsers;
+using OnionPronia.Appilication.DTOs.Tokens;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,6 @@ namespace OnionPronia.Appilication.Interfaces.Services
     public interface IAuthenticationService
     {
         Task RegisterAsync(RegisterDto userDto);
-        Task<string> LoginAsync(LoginDto userDto);
+        Task<TokenResponseDto> LoginAsync(LoginDto userDto);
     }
 }
